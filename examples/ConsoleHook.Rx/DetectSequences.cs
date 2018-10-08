@@ -3,13 +3,7 @@
 // See license.txt or https://mit-license.org/
 
 using System;
-using System.Reactive.Linq;
 using System.Threading;
-using System.Windows.Forms;
-using Gma.System.MouseKeyHook;
-using MouseKeyHook.Rx;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace ConsoleHook.Rx
 {

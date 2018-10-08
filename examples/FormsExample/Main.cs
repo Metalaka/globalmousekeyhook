@@ -6,6 +6,9 @@ using System;
 using System.ComponentModel;
 using System.Windows.Forms;
 using Gma.System.MouseKeyHook;
+using KeyEventArgs = Gma.System.MouseKeyHook.KeyEventArgs;
+using KeyPressEventArgs = Gma.System.MouseKeyHook.KeyPressEventArgs;
+using MouseEventArgs = Gma.System.MouseKeyHook.MouseEventArgs;
 
 namespace Demo
 {
@@ -97,7 +100,7 @@ namespace Demo
 
         private void HookManager_Supress(object sender, MouseEventExtArgs e)
         {
-            if (e.Button != MouseButtons.Right)
+            if (e.Button != Gma.System.MouseKeyHook.MouseButtons.Right)
             {
                 Log(string.Format("MouseDown \t\t {0}\n", e.Button));
                 return;

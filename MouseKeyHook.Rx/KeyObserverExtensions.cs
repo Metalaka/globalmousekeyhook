@@ -6,7 +6,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reactive.Linq;
-using System.Windows.Forms;
 using Gma.System.MouseKeyHook;
 using Gma.System.MouseKeyHook.Implementation;
 using srx = System.Reactive.Linq;
